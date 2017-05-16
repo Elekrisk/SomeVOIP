@@ -12,6 +12,9 @@ namespace SomeVOIP
 {
     public partial class Form1 : Form
     {
+        public bool mute = false;
+        public bool deafen = false;
+
         public Form1()
         {
             InitializeComponent();
